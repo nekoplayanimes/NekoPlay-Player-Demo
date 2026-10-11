@@ -9,14 +9,14 @@
           "title": "Vídeo de teste",
           "duration": "",
           "sourceType": "direct",
-          "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1791705008/Temporada.1.Episodio.1.pt-BR.mp4",
+          "sourceUrl": "https://archive.org/details/sintel-o-filme-2010-hd-dublado-pt-br",
           "audioLanguage": "pt-BR",
           "audioLabel": "Áudio",
           "audioTracks": [
             {
               "language": "pt-BR",
               "label": "Áudio",
-              "sourceUrl": "https://res.cloudinary.com/d8zcjcty/video/upload/v1791705008/Temporada.1.Episodio.1.pt-BR.mp4"
+              "sourceUrl": "https://archive.org/details/sintel-o-filme-2010-hd-dublado-pt-br"
             }
           ],
           "subtitles": []
