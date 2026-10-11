@@ -9,14 +9,14 @@
           "title": "Vídeo de teste",
           "duration": "",
           "sourceType": "direct",
-          "sourceUrl": "https://archive.org/details/sintel-o-filme-2010-hd-dublado-pt-br",
+          "sourceUrl": "https://archive.org/embed/sintel-o-filme-2010-hd-dublado-pt-br",
           "audioLanguage": "pt-BR",
           "audioLabel": "Áudio",
           "audioTracks": [
             {
               "language": "pt-BR",
               "label": "Áudio",
-              "sourceUrl": "https://archive.org/details/sintel-o-filme-2010-hd-dublado-pt-br"
+              "sourceUrl": "https://archive.org/embed/sintel-o-filme-2010-hd-dublado-pt-br"
             }
           ],
           "subtitles": []
