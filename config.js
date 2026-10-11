@@ -1,0 +1,1 @@
+window.NEKOPLAY_CONFIG = {};

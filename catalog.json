@@ -1,0 +1,27 @@
+{
+  "anime": [
+    {
+      "id": "teste-player",
+      "title": "Teste do Player",
+      "episodes": [
+        {
+          "number": 1,
+          "title": "Vídeo de teste",
+          "duration": "",
+          "sourceType": "direct",
+          "sourceUrl": "COLE_AQUI_A_URL_HTTPS_DO_VIDEO_AUTORIZADO",
+          "audioLanguage": "pt-BR",
+          "audioLabel": "Áudio original",
+          "audioTracks": [
+            {
+              "language": "pt-BR",
+              "label": "Áudio original",
+              "sourceUrl": "COLE_AQUI_A_URL_HTTPS_DO_VIDEO_AUTORIZADO"
+            }
+          ],
+          "subtitles": []
+        }
+      ]
+    }
+  ]
+}
