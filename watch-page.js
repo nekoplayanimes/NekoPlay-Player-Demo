@@ -1,14 +1,6 @@
 /* NekoPlay — player personalizado (base inspirada em players de streaming)
    Mantém as fontes, legendas e seleção de áudio configuradas em catalog.json. */
-function direct(url){
-  try {
-    const u = new URL(url);
-    // Permite qualquer link HTTPS válido (incluindo GitHub Releases)
-    return u.protocol === "https:" ? u.href : "";
-  } catch {
-    return "";
-  }
-}
+function direct(url){try{const u=new URL(url);return u.protocol==="https:"?u.href:""}catch{return""}}
 function embed(url){try{const u=new URL(url),h=u.hostname.toLowerCase();if(["youtube.com","www.youtube.com","www.youtube-nocookie.com"].includes(h)&&u.pathname.startsWith("/embed/"))return u.href;if(h==="player.vimeo.com"&&u.pathname.startsWith("/video/"))return u.href}catch{}return""}
 function watchUrl(id,number){return `watch.html?id=${encodeURIComponent(id)}&ep=${number}`}
 function languageName(code,label){if(label)return label;return ({"ja":"Japonês","pt-BR":"Português (Brasil)","pt":"Português","en":"Inglês","es":"Espanhol"})[code]||code||"Idioma"}
